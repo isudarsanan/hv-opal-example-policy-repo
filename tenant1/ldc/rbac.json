@@ -1,0 +1,48 @@
+{
+    "api_list": {
+        "/": {
+            "method": "get",
+            "roles": [
+                "admin",
+                "member",
+                "guest"
+            ]
+        },
+        "/api/admin": {
+            "method": "get",
+            "roles": [
+                "admin"
+            ]
+        },
+        "/api/guest": {
+            "method": "get",
+            "roles": [
+               
+                "guest"
+            ]
+        },
+        "/api/member": {
+            "method": "get",
+            "roles": [
+                "admin",
+                "member"
+            ]
+        },
+        "/home": {
+            "method": "get",
+            "roles": [
+                "admin",
+                "member",
+                "guest"
+            ]
+        },
+        "/profile": {
+            "method": "get",
+            "roles": [
+                "admin",
+                "member",
+                "guest"
+            ]
+        }
+    }
+}
