@@ -22,7 +22,7 @@ default allow := false
 allow if {
 	api := api_list[input.url]
 	api.method == input.method
-	count(common_roles) > 0
+	count(common_roles) > 1
 }
 
 common_roles contains role if {
