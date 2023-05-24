@@ -12,7 +12,7 @@ package app.tenant1.ldc.rbac
 import future.keywords.contains
 import future.keywords.if
 import future.keywords.in
-import data.tenant1.ldc.rbac.api_list
+import data.tenant1.ldc.api_list
 import input
 
 # By default, deny requests.
